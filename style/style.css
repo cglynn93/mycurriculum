@@ -1,0 +1,22 @@
+body{
+	color:black;
+	font-family:'fantasy';
+	background:pink;
+	text-align: center;
+}
+
+.show{
+	background-color:rgb(122, 190, 218);
+}
+
+.row{
+	margin-top: 20px;
+	min-height:20px;
+	justify-content:space-between;
+}
+
+@media (max-width: 992px) {
+	body {
+	  background-color:white;
+	}
+  }
